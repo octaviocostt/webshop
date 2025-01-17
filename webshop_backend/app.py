@@ -37,6 +37,13 @@ products = [
          "image": "headphone.png",
          "price": 11.787,
          "description": "With Cable with 6.3 mm & 3.5 mm Jack, Closed DJ Headphones with 50 mm Driver, Bass Sound."
+     },
+ {
+         "id": 6,
+         "name": "Sony PlayStation 5 (PS5)",
+         "image": "headphone.png",
+         "price": 189.899,
+         "description": "The updated PlayStation 5 Slim is finally here. The main novelty is a revised design based on its predecessor, but overall the console has become smaller. The other major change is the 1TB SSD, which replaces the original model's 825GB SSD."
      }
 ]
 

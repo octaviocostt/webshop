@@ -1,0 +1,67 @@
+{
+  "mywebshop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webshop-mywebshop-a9507-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423566303:role/amplify-webshop-mywebshop-a9507-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423566303:role/amplify-webshop-mywebshop-a9507-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-webshop-mywebshop-a9507-deployment",
+      "UnauthRoleName": "amplify-webshop-mywebshop-a9507-unauthRole",
+      "StackName": "amplify-webshop-mywebshop-a9507",
+      "StackId": "arn:aws:cloudformation:eu-west-3:637423566303:stack/amplify-webshop-mywebshop-a9507/7459a720-8cb0-11ef-b1d7-066108d37c5b",
+      "AmplifyAppId": "dh7rogxesm3kp"
+    },
+    "categories": {
+      "auth": {
+        "webshopd207bcf8": {}
+      },
+      "function": {
+        "createOrder": {},
+        "processPayment": {}
+      }
+    }
+  },
+  "dev": {
+    "categories": {
+      "function": {
+        "createOrder": {},
+        "processPayment": {}
+      }
+    },
+    "awscloudformation": {}
+  },
+  "mywebstore": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webshop-mywebstore-abbaf-authRole",
+      "UnauthRoleArn": "arn:aws:iam::699475919488:role/amplify-webshop-mywebstore-abbaf-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::699475919488:role/amplify-webshop-mywebstore-abbaf-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-webshop-mywebstore-abbaf-deployment",
+      "UnauthRoleName": "amplify-webshop-mywebstore-abbaf-unauthRole",
+      "StackName": "amplify-webshop-mywebstore-abbaf",
+      "StackId": "arn:aws:cloudformation:eu-west-3:699475919488:stack/amplify-webshop-mywebstore-abbaf/1cb4f060-909d-11ef-9b3e-0e475cba08c9",
+      "AmplifyAppId": "d36eyu3n6b0j8d"
+    },
+    "categories": {
+      "auth": {
+        "webshopd207bcf8": {}
+      },
+      "function": {
+        "processPayment": {
+          "deploymentBucketName": "amplify-webshop-mywebstore-abbaf-deployment",
+          "s3Key": "amplify-builds/processPayment-6c696f38565663537934-build.zip"
+        },
+        "createOrder": {
+          "deploymentBucketName": "amplify-webshop-mywebstore-abbaf-deployment",
+          "s3Key": "amplify-builds/createOrder-6b6630737445444f5539-build.zip"
+        }
+      },
+      "api": {
+        "webshop": {}
+      },
+      "storage": {
+        "ProductImages": {}
+      }
+    }
+  }
+}
